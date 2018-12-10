@@ -1,0 +1,28 @@
+/*------------------------------------------*/
+/*  HEADER
+/*------------------------------------------*/
+
+.page-header {
+  padding-top: 40px;
+
+  .flex-row {
+    align-items: center;
+  }
+}
+
+.header--scroll-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  z-index: 999;
+  background-color: #f8f6f2;
+  box-shadow: 0 2px 20px 0 rgba(8, 38, 38, 0.3);
+
+  .logo {
+    font-size: calc(72px * 0.4);
+  }
+}
+

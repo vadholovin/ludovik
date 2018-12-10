@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Людовик - салон красоты</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <style>
+  @font-face {
+    font-family: 'Liana';
+    src: url('fonts/Liana.woff2') format('woff2'),
+        url('fonts/Liana.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu.woff2') format('woff2'),
+        url('fonts/Ubuntu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  </style>
+
+  <link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="libs/simplebar/simplebar.css">
+  <link rel="stylesheet" href="libs/animate-css/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <div class="contact-box">
+      <div class="container">
+        <div class="flex-row">
+          <ul class="contacts contacts--top">
+            <li class="contacts-item contacts-item--place">
+              г. Москва  Семёновская площадь, д. 1-аБ
+              (БЦ Соколиная гора)
+            </li>
+            <li class="contacts-item contacts-item--phone">
+              <a href="tel:+74956277727">+7 (495) 627-77-27</a>
+              <a href="tel:+79167139864">+7 (916) 713-98-64</a>
+            </li>
+          </ul>
+
+          <button class="button button-outline button-round js-form-trigger">Заказать обратный звонок</button>
+        </div>
+      </div><!-- .container end -->
+    </div>
+
+
+    <section class="hero">
+      <header class="page-header">
+        <div class="container">
+          <div class="flex-row">
+            <div class="logo logo--header">
+              <div class="logo-name">Людовик</div>
+              <div class="logo-subname">салон красоты</div>
+            </div>
+
+            <nav class="main-menu">
+              <button class="button menu-hamburger js-menu-trigger">
+                <span class="line line--1"></span>
+                <span class="line line--2"></span>
+                <span class="line line--3"></span>
+              </button>
+
+              <ul class="main-menu__list main-menu__list--desktop">
+                <li class="main-menu__item">
+                  <a href="#about" id="toAbout" class="main-menu__link">О салоне</a>
+                </li>
+                <li class="main-menu__item">
+                  <a href="#services" id="toServices" class="main-menu__link">Услуги</a>
+                </li>
+                <li class="main-menu__item">
+                  <a href="#team" id="toTeam" class="main-menu__link">Специалисты</a>
+                </li>
+                <li class="main-menu__item">
+                  <a href="#serts" id="toSerts" class="main-menu__link">Сертификаты</a>
+                </li>
+                <li class="main-menu__item">
+                  <a href="#sale" id="toSale" class="main-menu__link">Акции</a>
+                </li>
+                <li class="main-menu__item">
+                  <a href="#contacts" id="toContacts" class="main-menu__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div><!-- .container end -->
+
+        <div class="menu-mobile">
+          <button class="button menu-close"></button>
+
+          <ul class="main-menu__list main-menu__list--mobile">
+            <li class="main-menu__item">
+              <a href="#about" id="toAbout2" class="main-menu__link">О салоне</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#services" id="toServices2" class="main-menu__link">Услуги</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#team" id="toTeam2" class="main-menu__link">Специалисты</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#serts" id="toSerts2" class="main-menu__link">Сертификаты</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#sale" id="toSale2" class="main-menu__link">Акции</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#contacts" id="toContacts2" class="main-menu__link">Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="contacts contacts--mobile">
+            <li class="contacts-item contacts-item--place">
+              г. Москва  Семёновская площадь, д. 1-аБ
+              (БЦ Соколиная гора)
+            </li>
+            <li class="contacts-item contacts-item--phone">
+              <a href="tel:+74956277727">+7 (495) 627-77-27</a>
+              <a href="tel:+79167139864">+7 (916) 713-98-64</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="hero-banner banner">
+        <div class="container">
+          <div class="banner-heading">
+            <h1 class="banner-title animated" data-animation="slideInLeft" data-animation-delay="300">
+              Полный спектр услуг<br>
+              <span class="banner-title--small animated" data-animation="slideInLeft" data-animation-delay="400">в нашем салоне красоты</span>
+            </h1>
+            <p class="banner-subtitle animated" data-animation="slideInLeft" data-animation-delay="500">Насладитесь приятной атмосферой и качественным сервисом c нами</p>
+            <button class="button button-primary js-form-trigger">Записаться online</button>
+          </div>
+
+          <div class="banner-social">
+            <p class="social social--banner">
+              <span class="social-text">Мы в инстаграм:</span>
+              <a class="social-link" href="https://instagram.com/ludovik" target="_blank">@ludovik</a>
+            </p>
+          </div>
+        </div><!-- .container end -->
+      </div>
+    </section><!-- .hero end -->
+
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="flex-row">
+          <div class="about-col-1">
+            <div class="about-holder">
+              <ul id="aboutSlider" class="owl-carousel about-slider">
+                <a href="img/about/slide-about-1.jpg" class="about-slide" data-fancybox="about">
+                  <img class="img-responsive img-about" src="img/about/slide-about-1.jpg" alt="">
+                </a><!-- .about-slide end -->
+
+                <a href="img/about/slide-about-1.jpg" class="about-slide" data-fancybox="about">
+                  <img class="img-responsive img-about" src="img/about/slide-about-1.jpg" alt="">
+                </a><!-- .about-slide end -->
+
+                <a href="img/about/slide-about-1.jpg" class="about-slide" data-fancybox="about">
+                  <img class="img-responsive img-about" src="img/about/slide-about-1.jpg" alt="">
+                </a><!-- .about-slide end -->
+              </ul>
+
+              <div class="about-nav" id="aboutNav">
+                <a class="prev button button--navigation">&nbsp;</a>
+                <a class="next button button--navigation">&nbsp;</a>
+              </div>
+            </div>
+          </div><!-- .about-col-1 end -->
+
+          <div class="about-col-2" >
+            <div class="about-scroll" data-simplebar data-simplebar-auto-hide="false">
+              <div class="about-content">
+                <h2 class="about-title section-title">О нашем салоне</h2>
+
+                <div class="about-desc">
+                  <p>
+                    Круговерть будничных дней оставляет женщине очень мало времени для того, чтобы почувствовать себя привлекательной, отдать должное своим волосам, коже, фигуре, ухаживать за ними так, как они этого заслуживают. И не мудрено, ведь сколько обязанностей у современной и активной женщины: дом, дети, карьера. Мы втягиваемся в этот круговорот, и кажется, что уже не хватает времени на самое главное.
+                  </p>
+
+                  <p>
+                    Не пора ли остановиться хоть на мгновение и насладиться жизнью, прекрасными минутами счастья, которые, кстати сказать, Вы можете устроить себе сами.
+                  </p>
+
+                  <p>
+                    Но как это возможно? – спросите Вы. Легко! Тем более что Вы уже сделали первый шаг: зашли на сайт нашего салона красоты в здании бизнес-центра  «Соколиная гора». И мы рады приветствовать Вас в нашем дружеском и радушном коллективе профессионалов в сфере женской красоты.
+                  </p>
+
+                  <p>
+                    Но как это возможно? – спросите Вы. Легко! Тем более что Вы уже сделали первый шаг: зашли на сайт нашего салона красоты в здании бизнес-центра  «Соколиная гора». И мы рады приветствовать Вас в нашем дружеском и радушном коллективе профессионалов в сфере женской красоты.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .flex-row end -->
+      </div><!-- .container end -->
+
+      <section class="benefits" id="benefits">
+        <div class="container">
+          <h2 class="benefits-title">Преимущества салона</h2>
+
+          <ul class="pure-g benefits-list">
+            <li class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+              <div class="benefits-item animated" data-animation="fadeInUp" data-animation-delay="300">
+                <div class="benefits-item__icon benefits-item__icon--atmosphere"></div>
+                <span class="benefits-item__heading">Атмосфера</span>
+                <p class="benefits-item__desc">
+                  После чашечки ароматного кофе или бодрящего чая, вы проникнетесь нашей атмосферой
+                </p>
+              </div>
+            </li>
+
+            <li class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+              <div class="benefits-item animated" data-animation="fadeInUp" data-animation-delay="400">
+                <div class="benefits-item__icon benefits-item__icon--pro"></div>
+                <span class="benefits-item__heading">Специалисты</span>
+                <p class="benefits-item__desc">
+                  Наши косметологи очистят кожу и восстановят баланс, проведут отбеливание и осветление кожи
+                </p>
+              </div>
+            </li>
+
+            <li class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+              <div class="benefits-item animated" data-animation="fadeInUp" data-animation-delay="500">
+                <div class="benefits-item__icon benefits-item__icon--materials"></div>
+                <span class="benefits-item__heading">Материалы</span>
+                <p class="benefits-item__desc">
+                  Мы используем только проверенные препараты от ведущих косметических брендов
+                </p>
+              </div>
+            </li>
+
+            <li class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-4">
+              <div class="benefits-item animated" data-animation="fadeInUp" data-animation-delay="600">
+                <div class="benefits-item__icon benefits-item__icon--serts"></div>
+                <span class="benefits-item__heading">Сертификаты</span>
+                <p class="benefits-item__desc">
+                  После чашечки ароматного кофе или бодрящего чая, вы проникнетесь нашей атмосферой
+                </p>
+              </div>
+            </li>
+          </ul><!-- .pure-g end -->
+        </div><!-- .container end -->
+      </section><!-- .benefits end -->
+    </section><!-- .about end -->
+
+
+    <div class="offer">
+      <div class="container">
+        <div class="flex-row">
+          <div class="offer-heading animated" data-animation="slideInLeft" data-animation-delay="300">
+            <p class="offer-heading__title">Запишитесь
+              <span class="offer-heading__title--bolder highlight">на консультацию</span>
+            </p>
+            <p class="offer-heading__subtitle">Наш специалист свяжется с вами в ближайшее время</p>
+          </div>
+
+          <button class="button button-primary button-bigger js-form-trigger animated" data-animation="slideInRight" data-animation-delay="500">Получить консультацию</button>
+        </div><!-- .flex-row end -->
+      </div><!-- .container end -->
+    </div><!-- .offer end -->
+
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="services-title section-title">Наши услуги</h2>
+        <p class="services-subtitle">В нашем салоне представлены парикмахерский, маникюрный, косметологический и спа кабинеты</p>
+      </div><!-- .container end -->
+
+      <div class="container container--services">
+        <div class="services-holder">
+          <ul id="servicesSlider" class="owl-carousel services-slider">
+            <li class="services-slide">
+              <div class="services-slide__text">
+                <p class="services-slide__heading">Окрашивание волос</p>
+                <div class="services-slide__desc">
+                  <p>
+                    Окрашивание волос разнообразными оттенками 5 красителями:
+                    Hi Rishess - тонирующая, не содержащая аммиака краска,
+                    окрашивающая волосы тон в тон и максимально щадящая; Luo color
+                    – краситель, создающий естественный блеск и цвет на волосах,
+                    дает возможность осветления на 2 тона и совершенно безвреден
+                    для волос; Мajirel - краска - окисление, закрашивает седину
+                    до 70-80%, отличается богатой палитрой и насыщенными цветами;
+                    Color Suprem – краситель, созданный специально для седых волос,
+                    который закрашивает 100% седины
+                  </p>
+                </div>
+              </div>
+              <div class="services-slide__pic">
+                <img class="img-responsive img-services" src="img/service/slide-service-1.jpg" alt="">
+              </div>
+            </li><!-- .services-slide end -->
+
+            <li class="services-slide">
+              <div class="services-slide__text">
+                <p class="services-slide__heading">Окрашивание волос</p>
+                <p class="services-slide__desc">
+                  Окрашивание волос разнообразными оттенками 5 красителями:
+                  Hi Rishess - тонирующая, не содержащая аммиака краска,
+                  окрашивающая волосы тон в тон и максимально щадящая; Luo color
+                  – краситель, создающий естественный блеск и цвет на волосах,
+                  дает возможность осветления на 2 тона и совершенно безвреден
+                  для волос
+                </p>
+              </div>
+              <div class="services-slide__pic">
+                <img class="img-responsive img-services" src="img/service/slide-service-1.jpg" alt="">
+              </div>
+            </li><!-- .services-slide end -->
+
+
+            <li class="services-slide">
+              <div class="services-slide__text">
+                <p class="services-slide__heading">Окрашивание волос</p>
+                <p class="services-slide__desc">
+                  Окрашивание волос разнообразными оттенками 5 красителями:
+                  Hi Rishess - тонирующая, не содержащая аммиака краска,
+                  окрашивающая волосы тон в тон и максимально щадящая; Luo color
+                  – краситель, создающий естественный блеск и цвет на волосах,
+                  дает возможность осветления на 2 тона и совершенно безвреден
+                  для волос; Мajirel - краска - окисление, закрашивает седину
+                  до 70-80%
+                </p>
+              </div>
+              <div class="services-slide__pic">
+                <img class="img-responsive img-services" src="img/service/slide-service-1.jpg" alt="">
+              </div>
+            </li><!-- .services-slide end -->
+          </ul>
+
+          <div class="services-nav" id="servicesNav">
+            <a class="prev button button--navigation"></a>
+            <a class="next button button--navigation"></a>
+          </div>
+        </div>
+      </div><!-- .container--wider end -->
+    </section><!-- .services end -->
+
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="team-title section-title">Наши специалисты</h2>
+        <p class="team-subtitle">Салон имеет ряд сертификатов, подтверждающих наш опыт</p>
+
+        <div class="team-holder">
+          <ul id="teamSlider" class="owl-carousel team-slider">
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-1.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Петрова Татьяна</span>
+                <span class="team-post">Косметолог</span>
+              </div>
+            </li><!-- .team-slide end -->
+
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-2.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Мельникова Александра</span>
+                <span class="team-post">Парикмахер</span>
+              </div>
+            </li><!-- .team-slide end -->
+
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-3.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Быкова светлана</span>
+                <span class="team-post">Мастер маникюра</span>
+              </div>
+            </li><!-- .team-slide end -->
+
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-1.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Петрова Татьяна</span>
+                <span class="team-post">Косметолог</span>
+              </div>
+            </li><!-- .team-slide end -->
+
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-2.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Мельникова Александра</span>
+                <span class="team-post">Парикмахер</span>
+              </div>
+            </li><!-- .team-slide end -->
+
+            <li class="team-slide">
+              <div class="team-pic">
+                <img class="img-responsive img-team" src="img/team/slide-team-3.jpg" alt="">
+              </div>
+              <div class="team-slide__data">
+                <span class="team-name">Быкова светлана</span>
+                <span class="team-post">Мастер маникюра</span>
+              </div>
+            </li><!-- .team-slide end -->
+          </ul>
+
+          <div class="team-nav" id="teamNav">
+            <a class="prev prev--dark button button--navigation">&nbsp;</a>
+            <a class="next next--dark button button--navigation">&nbsp;</a>
+          </div>
+        </div>
+      </div><!-- .container end -->
+    </section><!-- .team end -->
+
+
+    <section class="serts" id="serts">
+      <div class="container">
+        <h2 class="visuallyhidden">Сертификаты</h2>
+
+        <div class="serts-holder">
+          <ul id="sertsSlider" class="owl-carousel serts-slider">
+            <li class="serts-slide">
+              <a href="img/diplom/slide-diplom-1.png" class="serts-slide__pic" data-fancybox>
+                <img class="img-responsive img-serts" src="img/diplom/slide-diplom-1.png" alt="">
+              </a>
+              <div class="serts-slide__text">
+                <p class="serts-slide__heading">Диплом</p>
+                <p class="serts-slide__desc">
+                  Участие в международной научно-практической конференции в области иньекционной косметологии
+                </p>
+              </div>
+            </li><!-- .serts-slide end -->
+
+            <li class="serts-slide">
+              <a href="img/diplom/slide-diplom-1.png" class="serts-slide__pic" data-fancybox>
+                <img class="img-responsive img-serts" src="img/diplom/slide-diplom-1.png" alt="">
+              </a>
+              <div class="serts-slide__text">
+                <p class="serts-slide__heading">Диплом</p>
+                <p class="serts-slide__desc">
+                  Участие в международной научно-практической конференции в области иньекционной косметологии
+                </p>
+              </div>
+            </li><!-- .serts-slide end -->
+
+            <li class="serts-slide">
+              <a href="img/diplom/slide-diplom-1.png" class="serts-slide__pic" data-fancybox>
+                <img class="img-responsive img-serts" src="img/diplom/slide-diplom-1.png" alt="">
+              </a>
+              <div class="serts-slide__text">
+                <p class="serts-slide__heading">Диплом</p>
+                <p class="serts-slide__desc">
+                  Участие в международной научно-практической конференции в области иньекционной косметологии
+                </p>
+              </div>
+            </li><!-- .serts-slide end -->
+          </ul>
+
+          <div class="serts-nav" id="sertsNav">
+            <a class="prev-text button button--navigation">предыдущий</a>
+            <a class="next-text button button--navigation">следующий</a>
+          </div>
+        </div>
+      </div><!-- .container end -->
+    </section><!-- .serts end -->
+
+
+    <div class="sale" id="sale">
+      <div class="container-fluid ">
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-lg-1-2 sale-col-1">
+            <div class="sale-text">
+              <p class="sale-heading animated" data-animation="bounceInLeft" data-animation-delay="300">
+                <span class="sale-heading--small">Акция</span>
+                <span class="sale-heading--big">-20%</span>
+              </p>
+              <p class="sale-subheading animated" data-animation="bounceInRight" data-animation-delay="400">Приведите друга и мы подарим Вам и Вашему другу скидку</p>
+
+              <button class="button button-big button-primary js-form-trigger animated" data-animation="fadeInUp" data-animation-delay="500">Записаться online</button>
+            </div>
+          </div>
+
+          <div class="pure-u-1 pure-u-lg-1-2 sale-col-2">
+            <div class="sale-img">&nbsp;</div>
+          </div>
+        </div><!-- .pure-g end -->
+      </div><!-- .container end -->
+    </div><!-- .sale end -->
+
+
+    <footer class="page-footer" id="contacts">
+      <div class="container">
+        <div class="logo logo--footer">
+          <div class="logo-name">Людовик</div>
+          <div class="logo-subname">салон красоты</div>
+        </div>
+
+        <div class="footer-info">
+          <ul class="contacts contacts--footer">
+            <li class="contacts-item contacts-item--place">
+              г. Москва  Семёновская площадь, д. 1-аБ (БЦ Соколиная гора)
+            </li>
+            <li class="contacts-item contacts-item--phone">
+              <a href="tel:+74956277727">+7 (495) 627-77-27</a>
+              <a href="tel:+79167139864">+7 (916) 713-98-64</a>
+            </li>
+          </ul>
+
+          <button class="button button-outline button-round js-form-trigger">
+            Заказать обратный звонок
+          </button>
+          <hr class="hr--footer">
+          <p class="social social--footer"><a class="social-link" href="https://instagram.com/ludovik" target="_blank">@ludovik</a></p>
+        </div>
+      </div><!-- .container end -->
+    </footer>
+
+  </div><!-- .page end -->
+
+
+  <!-- Request Form -->
+
+  <div class="modal js-modal-form" id="modalRequestForm">
+    <div class="modal-overlay"></div>
+    <div class="modal-scrollable">
+      <div class="modal-box">
+        <button aria-label="Закрыть модальное окно" class="modal-close js-modal-close"></button>
+        <div class="modal-body">
+          <h2 class="modal-title">Форма обратной связи</h2>
+          <form action="">
+            <div class="form-control__holder">
+              <input type="text" name="user-name" class="form-control" placeholder="Имя">
+            </div>
+            <div class="form-control__holder">
+              <input type="tel" name="user-phone" class="form-control" placeholder="Номер телефона">
+            </div>
+            <div class="form-control__holder form-control__holder--last">
+              <label class="form-label">
+                <input class="visuallyhidden" type="checkbox" name="user-agree" >
+                <span class="form-checkbox"></span>- Я даю согласие на обработку моих персональных данных
+              </label>
+            </div>
+
+            <input type="submit" class="button button-primary button--form" value="Отправить" id="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Positive answer -->
+  <div class="modal js-modal-answer" id="answerPositive">
+    <div class="modal-overlay"></div>
+    <div class="modal-scrollable">
+      <div class="modal-box modal-box--answer">
+        <button aria-label="Закрыть модальное окно" class="modal-close js-modal-close"></button>
+        <div class="modal-body">
+          <p class="modal-title">Отправлено!</p>
+          <p class="modal-text">Мы скоро свяжемся с вами.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Negative answer -->
+  <div class="modal js-modal-answer" id="answerNegative">
+    <div class="modal-overlay"></div>
+    <div class="modal-scrollable">
+      <div class="modal-box modal-box--answer">
+        <button aria-label="Закрыть модальное окно" class="modal-close js-modal-close"></button>
+        <div class="modal-body">
+          <p class="modal-title">Ошибка!</p>
+          <p class="modal-text">Попробуйте снова.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="libs/fancybox/jquery.fancybox.min.js"></script>
+  <script src="libs/simplebar/simplebar.js"></script>
+  <script src="libs/appear/jquery.appear.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

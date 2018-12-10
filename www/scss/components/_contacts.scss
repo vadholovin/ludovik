@@ -1,0 +1,135 @@
+/*------------------------------------------*/
+/*  #CONTACTS
+/*------------------------------------------*/
+
+.contacts {
+  display: flex;
+}
+
+.contacts--top {
+  padding-top: 5px;
+  font-size: rem(15);
+
+  @media only screen and (min-width: 36em) {
+    margin-right: auto;
+    font-size: 1rem;
+  }
+
+  .contacts-item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      display: none;
+
+      @media only screen and (min-width: 36em) {
+        display: inline-block;
+        margin-right: 30px;
+        margin-bottom: 5px;
+      }
+
+      @media only screen and (min-width: 48em) {
+        margin-right: 75px;
+      }
+    }
+  }
+
+  .contacts-item--place {
+    max-width: 365px;
+  }
+}
+
+.contacts--footer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts--footer .contacts-item {
+  text-align: left;
+  margin-bottom: 25px;
+
+  @media only screen and (min-width: 62em) {
+    margin-bottom: 35px;
+  }
+}
+
+.contacts-item {
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.375;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-image: url(../img/icons/sprite@2x.png);
+    background-repeat: no-repeat;
+    background-size: 310px 281px;
+  }
+}
+
+.contacts-item--place:before {
+  width: 12px;
+	height: 16px;
+  background-position: -287px -59px;
+}
+
+.contacts-item--phone {
+
+  &:before {
+    width: 14px;
+    height: 16px;
+    background-position: -287px -33px;
+  }
+
+  a {
+    display: inline-block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease-out;
+  }
+
+  a:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  a:hover,
+  a:focus {
+    color: $brownLight;
+  }
+}
+
+.contacts--mobile {
+  position: relative;
+  display: block;
+  margin-top: 20px;
+  padding-top: 20px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 1px;
+    border-top: 1px solid $brownLight;
+  }
+
+  .contacts-item + .contacts-item {
+    margin-top: 6px;
+  }
+
+  .contacts-item--place {
+    max-width: 365px;
+  }
+
+  .contacts-item--phone {
+    a {
+      display: block;
+      margin: 0;
+    }
+
+    a + a {
+      margin-top: 6px;
+    }
+  }
+}

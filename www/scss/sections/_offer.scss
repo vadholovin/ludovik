@@ -1,0 +1,63 @@
+/*------------------------------------------*/
+/*  #OFFER
+/*------------------------------------------*/
+
+.offer {
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 66px;
+  background-color: #fff;
+  text-align: center;
+
+  @media only screen and (min-width: 80em) {
+    max-width: 1236px;
+    text-align: left;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (min-width: 80em) {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+}
+
+.offer-heading {
+  margin-bottom: 30px;
+
+  @media only screen and (min-width: 80em) {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.offer-heading__title {
+  margin-bottom: 10px;
+  font-size: rem(24);
+  line-height: 1.13;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  &--bolder {
+    font-weight: $semiBold;
+  }
+
+  @media only screen and (min-width: 80em) {
+    font-size: rem(30);
+    margin-bottom: 4px;
+  }
+}
+
+.offer-heading__subtitle {
+  font-weight: $semiBold;
+  font-size: rem(18);
+  color: #666;
+
+  @media only screen and (max-width: 62em) {
+    line-height: 1.3;
+  }
+}

@@ -1,0 +1,33 @@
+/*------------------------------------------*/
+/*  FOOTER
+/*------------------------------------------*/
+
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f8f6f2;
+
+  @media only screen and (min-width: 48em) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    padding-top: 105px;
+    padding-bottom: 120px;
+  }
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.hr--footer {
+  max-width: 280px;
+  margin: 52px auto 36px auto;
+  border-color: rgba(183, 160, 156, 0.5);
+
+  @media only screen and (min-width: 62em) {
+    max-width: 350px;
+  }
+}

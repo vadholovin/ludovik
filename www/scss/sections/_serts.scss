@@ -1,0 +1,128 @@
+/*------------------------------------------*/
+/*  #SERTS
+/*------------------------------------------*/
+
+.serts {
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  @media only screen and (min-width: 62em) {
+    padding-bottom: 100px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    padding-bottom: 155px;
+  }
+}
+
+.serts-holder {
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.serts-slide {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 15px;
+}
+
+.serts-slide__pic {
+  display: block;
+  width: 100%;
+
+  @media only screen and (min-width: 48em) {
+    flex-basis: 48.6%;
+    max-width: 48.6%;
+  }
+}
+
+.img-serts {
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.serts-slide__text {
+  width: 100%;
+  padding-top: 20px;
+  display: none;
+
+  @media only screen and (min-width: 48em) {
+    flex-basis: 51.4%;
+    max-width: 51.4%;
+    padding-left: 50px;
+    display: block;
+  }
+
+  @media only screen and (min-width: 62em) {
+    padding-top: 40px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    padding-top: 85px;
+    padding-left: 70px;
+  }
+}
+
+.serts-slide__heading {
+  font-family: $secondFont;
+  font-size: rem(40);
+  line-height: 1;
+  margin-bottom: 16px;
+  padding-left: 6px;
+  text-align: center;
+
+  @media only screen and (min-width: 48em) {
+    text-align: left;
+  }
+
+  @media only screen and (min-width: 62em) {
+    font-size: rem(48);
+  }
+
+  @media only screen and (min-width: 80em) {
+    font-size: rem(60);
+    margin-bottom: 30px;
+  }
+}
+
+.serts-slide__desc {
+  font-size: rem(15);
+  line-height: 1.4;
+
+  @media only screen and (min-width: 62em) {
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 80em) {
+    font-size: rem(18);
+    line-height: 1.6;
+  }
+}
+
+.serts-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 5;
+  margin-top: 10px;
+
+  @media only screen and (min-width: 48em) {
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+    width: 45.5%;
+    justify-content: flex-start;
+  }
+
+  @media only screen and (min-width: 80em) {
+    bottom: 100px;
+  }
+
+  .button:first-child {
+    margin-right: 30px;
+
+    @media only screen and (min-width: 48em) {
+      margin-right: auto;
+    }
+  }
+}

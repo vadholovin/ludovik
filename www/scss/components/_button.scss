@@ -1,0 +1,102 @@
+/*------------------------------------------*/
+/*  BUTTONS
+/*------------------------------------------*/
+.button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: top;
+  user-select: none;
+  border: 0;
+  padding: 0.875em 1.25em;
+  font-size: 1rem;
+  font-size: rem(15);
+  line-height: 1;
+  font-weight: normal;
+  border-radius: 1px;
+  color: $greyDark;
+  background-color: transparent;
+  transition:
+    background-color 0.3s ease-out,
+    color 0.3s ease-out,
+    border-color 0.3s ease-out;
+  cursor: pointer;
+
+  @media only screen and (min-width: 62em) {
+    font-size: 1rem;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.button-outline {
+  border: 1px solid $greyDark;
+
+  &:hover,
+  &:focus {
+    background-color: $brown;
+    color: #fff;
+  }
+}
+
+.button-round {
+  border-radius: 60px;
+}
+
+.button-primary {
+  position: relative;
+  padding: 25px 60px;
+  font-weight: $semiBold;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $brown;
+  overflow: hidden;
+  z-index: 1;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    width: 100%;
+    height: 100%;
+    background-color: #c1b1a3;
+    background-color: #50413e;
+    transition: transform 0.3s ease-out;
+    z-index: -1;
+  }
+
+  &:hover:before,
+  &:focus:before {
+    transform: translateY(0);
+  }
+}
+
+.button-big {
+  padding-left: 3em;
+  padding-right: 3em;
+
+  @media only screen and (min-width: 62em) {
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+  }
+}
+
+.button-bigger {
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+
+  @media only screen and (min-width: 62em) {
+    padding-left: 6.6em;
+    padding-right: 6.6em;
+  }
+}
+
+.button--navigation {
+  padding: 0;
+}

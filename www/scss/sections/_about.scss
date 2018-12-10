@@ -1,0 +1,151 @@
+/*------------------------------------------*/
+/*  #ABOUT
+/*------------------------------------------*/
+
+.about {
+  background-image: url(../img/bg-about.png);
+  background-repeat: repeat-x;
+  background-position: 0 0;
+
+  .container {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.about-col-1 {
+  width: 100%;
+
+  @media only screen and (min-width: 48em) {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  @media only screen and (min-width: 80em) {
+    position: absolute;
+    left: -106px;
+    flex-basis:595px;
+    max-width: 595px;
+  }
+}
+
+.about-holder {
+  position: relative;
+}
+
+.about-slider {
+
+  @media only screen and (min-width: 48em) {
+    margin-bottom: 36px;
+  }
+}
+
+.about-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+
+  @media only screen and (min-width: 48em) {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: translateY(0);
+    justify-content: center;
+  }
+
+  .button {
+    z-index: 5;
+  }
+
+  .button:first-child {
+    margin-right: auto;
+
+    @media only screen and (min-width: 48em) {
+      margin-right: 104px;
+    }
+  }
+}
+
+.about-col-2 {
+  order: -1;
+  width: 100%;
+  margin-bottom: 40px;
+
+  @media only screen and (min-width: 48em) {
+    flex-basis: 50%;
+    max-width: 50%;
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 80em) {
+    flex-basis: 58.12%;
+    max-width: 58.12%;
+    margin-left: auto;
+  }
+}
+
+.about-scroll {
+  height: 584px;
+  padding-top: 30px;
+}
+
+.about-content {
+  padding: 20px 50px 40px 15px;
+
+  @media only screen and (min-width: 48em) {
+    padding-left: 30px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    padding-left: 48px;
+    padding-right: 70px;
+  }
+}
+
+.about-title {
+  font-size: rem(24);
+  line-height: 1.2;
+  color: #c1b1a3;
+  opacity: 0.6;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media only screen and (min-width: 48em) {
+    font-size: rem(32);
+    text-align: left;
+  }
+  @media only screen and (min-width: 62em) {
+    font-size: rem(40);
+  }
+  @media only screen and (min-width: 80em) {
+    font-size: rem(44);
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+}
+
+.about-desc {
+  font-size: rem(15);
+  line-height: 1.4;
+
+  @media only screen and (min-width: 80em) {
+    font-size: 1rem;
+    line-height: 1.625;
+  }
+
+  p:first-child {
+    margin-bottom: 35px;
+  }
+
+  p + p {
+    margin-top: 10px;
+  }
+}

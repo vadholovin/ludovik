@@ -1,0 +1,148 @@
+/*------------------------------------------*/
+/*  #SERVICES
+/*------------------------------------------*/
+
+.services {
+  padding-top: 80px;
+
+  @media only screen and (min-width: 48em) {
+    padding-top: 100px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    padding-top: 125px;
+  }
+
+  .container--services {
+    position: relative;
+
+    @media only screen and (min-width: 80em) {
+      height: 560px;
+    }
+  }
+}
+
+.services-title {
+  margin-bottom: 12px;
+}
+
+.services-subtitle {
+  font-weight: $medium;
+  font-size: rem(18);
+  line-height: 1.4;
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+
+  @media only screen and (min-width: 48em) {
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    margin-bottom: 90px;
+  }
+}
+
+.services-holder {
+
+  @media only screen and (min-width: 80em) {
+    width: 1274px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.services-slide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-slide__text {
+  text-align: center;
+
+  @media only screen and (min-width: 62em) {
+    flex-basis: 60%;
+    max-width: 60%;
+    padding: 16px 30px 30px 15px;
+  }
+
+  @media only screen and (min-width: 80em) {
+    flex-basis: 47.41%;
+    max-width: 47.41%;
+    padding-top: 50px;
+  }
+}
+
+.services-slide__heading {
+  font-family: $secondFont;
+  font-size: rem(40);
+  line-height: 1.4;
+  margin-bottom: 16px;
+
+  @media only screen and (min-width: 62em) {
+    font-size: rem(44);
+  }
+
+  @media only screen and (min-width: 80em) {
+    font-size: rem(48);
+    margin-bottom: 28px;
+  }
+}
+
+.services-slide__desc {
+  font-size: rem(15);
+  line-height: 1.4;
+  color: #666;
+
+  @media only screen and (min-width: 62em) {
+    font-size: 1rem;
+  }
+
+  @media only screen and (min-width: 80em) {
+    font-size: rem(18);
+    line-height: 1.6;
+  }
+
+  p + p {
+    margin-top: 10px;
+  }
+}
+
+.services-slide__pic {
+  display: none;
+
+  @media only screen and (min-width: 62em) {
+    display: block;
+    flex-basis: 40%;
+    max-width: 40%;
+  }
+
+  @media only screen and (min-width: 80em) {
+    flex-basis: 52.59%;
+    max-width: 52.59%;
+  }
+}
+
+.services-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+
+  @media only screen and (min-width: 62em) {
+    width: 60%;
+    margin-top: 0;
+  }
+
+  @media only screen and (min-width: 80em) {
+    position: absolute;
+    bottom: 5px;
+    width: 47%;
+  }
+
+  .button:first-child {
+    margin-right: 35px;
+  }
+}

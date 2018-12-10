@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'config/variables',
+  'config/functions',
+  'config/mixins';
+
+// 2. Vendors
+@import
+  'vendor/normalize';
+
+// 3. Base stuff
+@import
+  'base/grid',
+  'base/base',
+  'base/typography',
+  'base/helpers';
+
+// 5. Components
+@import
+  'components/button',
+  'components/contacts',
+  'components/logo',
+  'components/main-menu',
+  'components/social',
+  'components/section-title',
+  'components/slider',
+  'components/scrollbar',
+  'components/modal';
+
+// 4. Layout-related sections
+@import
+  'layout/header';
+
+// 6. Section-specific styles
+@import
+  'sections/contact-box',
+  'sections/hero',
+  'sections/about',
+  'sections/benefits',
+  'sections/offer',
+  'sections/services',
+  'sections/team',
+  'sections/serts',
+  'sections/sale';
+
+// 7. Layout
+@import
+  'layout/footer';

@@ -1,0 +1,27 @@
+/*------------------------------------------*/
+/*  #CONTACT-BOX
+/*------------------------------------------*/
+
+.contact-box {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgba(#fff, 0.3);
+
+  @media only screen and (min-width: 48em) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .flex-row {
+    align-items: flex-start;
+  }
+
+
+  .button-outline {
+    display: none;
+
+    @media only screen and (min-width: 80em) {
+      display: inline-block;
+    }
+  }
+}
